@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container-ci">
+  <div class="container">
+    <h1>Desserts</h1>
+    <div class="food-cont">
+      <div class="food-line">
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              <span class="change-text">Add to cart</span>
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-waffle-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Waffle</p>
+            <h3>Waffle with Berries</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$6.50</p>
+          </div>
+        </div>
+
+
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-creme-brulee-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Crème Brûlée</p>
+            <h3>Vanilla Bean Brûlée</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$7.00</p>
+          </div>
+        </div>
+
+
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-macaron-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Macaron</p>
+            <h3>Macaron Mix of Five</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$8.00</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="food-line">
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-tiramisu-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Tiramisu</p>
+            <h3>Classic Tiramisu</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$5.50</p>
+          </div>
+        </div>
+
+
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-baklava-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Baklava</p>
+            <h3>Pistachio Baklava</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$4.00</p>
+          </div>
+        </div>
+
+
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-meringue-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Pie</p>
+            <h3>Lemon Meringue Pie</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$5.00</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="food-line">
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-cake-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Cake</p>
+            <h3>Red Velvet Cake</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$4.50</p>
+          </div>
+        </div>
+
+
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-brownie-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Brownie</p>
+            <h3>Salted Caramel Brownie</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$4.50</p>
+          </div>
+        </div>
+
+
+        <div class="food-box">
+          <div class="food-image">
+            <button class="add-btn">
+              <p class="cart" id="cart">-</p>
+              Add To Cart
+              <p class="cart" id="cart">+</p>
+            </button>
+            <img src="./assets/images/image-panna-cotta-thumbnail.jpg">
+          </div>
+          <div class="food-text">
+            <p style="color: grey; font-size: 15px;">Panna Cotta</p>
+            <h3>Vanilla Panna Cotta</h3>
+            <p style="color:#c73a0f; font-weight: 800;">$6.50</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      
+    </div>
+  </div>
+
+  <div class="your-cart">
+    <h3 style="color: #c73a0f;">Your Cart</h3>
+    <div class="orders">
+
+      <div class="goods-ordered">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div>
+      <div class="goods-ordered">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div>
+      <div class="goods-ordered">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div>
+    </div>
+    <div class="total">
+      <p>Total Amount:</p>
+
+      <p>$450</p>
+    </div>
+
+    <div class="order-confirm">
+      <p>This is a <span>carbon-neutral</span> delivery</p>
+      
+    </div>
+    <button>Confirm Order</button>
+  </div>
+
+</div>
+
+<!-- order-confirmation -->
+
+<div class="bg-modal">
+  <div class="popup-modal">
+    <h2>Order Confirmed</h2>
+    <p>We hope you enjoy Your feed </p>
+    <div class="orders-pop">
+      <div class="goods-ordered-pop">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div>
+      <div class="goods-ordered-pop">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div>
+      <div class="goods-ordered-pop">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div>
+    </div>
+    <p id="close">+</p>
+
+    <button > Start New Order</button>
+  </div>
+  
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">DereelCoder</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
