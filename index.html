@@ -10,6 +10,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -21,10 +22,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              <span class="change-text">Add to cart</span>
-              <p class="cart" id="cart">+</p>
+              <p class="cart" id="decrease">-</p>
+              <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+              <p class="cart" id="increase">+</p>
             </button>
+            
             <img src="./assets/images/image-waffle-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -38,10 +40,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-creme-brulee-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -55,10 +58,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-macaron-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -76,10 +80,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-tiramisu-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -93,10 +98,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-baklava-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -110,10 +116,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-meringue-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -131,10 +138,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-cake-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -148,10 +156,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-brownie-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -165,10 +174,11 @@
         <div class="food-box">
           <div class="food-image">
             <button class="add-btn">
-              <p class="cart" id="cart">-</p>
-              Add To Cart
-              <p class="cart" id="cart">+</p>
-            </button>
+  <p class="cart" id="decrease">-</p>
+  <span class="change-text"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+  <p class="cart" id="increase">+</p>
+</button>
+
             <img src="./assets/images/image-panna-cotta-thumbnail.jpg">
           </div>
           <div class="food-text">
@@ -190,7 +200,16 @@
     <h3 style="color: #c73a0f;">Your Cart</h3>
     <div class="orders">
 
-      <div class="goods-ordered">
+      <!-- <div class="goods-ordered">
+        <h4>Classic Tiramisu</h4>
+        <div class="price-amount">
+          <span>1x</span>
+          <span>$5.50</span>
+          <span>$5.50</span>
+          <p>x</p>
+        </div>
+      </div> -->
+      <!-- <div class="goods-ordered">
         <h4>Classic Tiramisu</h4>
         <div class="price-amount">
           <span>1x</span>
@@ -207,21 +226,12 @@
           <span>$5.50</span>
           <p>x</p>
         </div>
-      </div>
-      <div class="goods-ordered">
-        <h4>Classic Tiramisu</h4>
-        <div class="price-amount">
-          <span>1x</span>
-          <span>$5.50</span>
-          <span>$5.50</span>
-          <p>x</p>
-        </div>
-      </div>
+      </div> -->
     </div>
     <div class="total">
       <p>Total Amount:</p>
 
-      <p>$450</p>
+      <p></p>
     </div>
 
     <div class="order-confirm">
@@ -235,45 +245,19 @@
 
 <!-- order-confirmation -->
 
+<!-- Order Confirmed Modal -->
 <div class="bg-modal">
   <div class="popup-modal">
     <h2>Order Confirmed</h2>
-    <p>We hope you enjoy Your feed </p>
+    <p>We hope you enjoy your food!</p>
     <div class="orders-pop">
-      <div class="goods-ordered-pop">
-        <h4>Classic Tiramisu</h4>
-        <div class="price-amount">
-          <span>1x</span>
-          <span>$5.50</span>
-          <span>$5.50</span>
-          <p>x</p>
-        </div>
-      </div>
-      <div class="goods-ordered-pop">
-        <h4>Classic Tiramisu</h4>
-        <div class="price-amount">
-          <span>1x</span>
-          <span>$5.50</span>
-          <span>$5.50</span>
-          <p>x</p>
-        </div>
-      </div>
-      <div class="goods-ordered-pop">
-        <h4>Classic Tiramisu</h4>
-        <div class="price-amount">
-          <span>1x</span>
-          <span>$5.50</span>
-          <span>$5.50</span>
-          <p>x</p>
-        </div>
-      </div>
+      <!-- Cart items will be dynamically added here -->
     </div>
     <p id="close">+</p>
-
-    <button > Start New Order</button>
+    <button>Start New Order</button>
   </div>
-  
 </div>
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 

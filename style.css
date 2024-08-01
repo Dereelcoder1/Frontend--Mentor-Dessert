@@ -75,34 +75,36 @@ body{
 /* .food-text{
     border: 1px solid;
 } */
-.add-btn{
-    border-radius: 30px;
-    padding: 12px 20px;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    font-weight: 600;
-    font-size: 15px;
-    box-shadow: 1px 1px 4px #000;
-    position: absolute;
-    bottom: -7%;
-    right: 20%;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    transition: all .3s ease-in-out;
-    
+.add-btn {
+  border-radius: 30px;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 1px 1px 4px #000;
+  position: absolute;
+  bottom: -7%;
+  right: 20%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  transition: all .3s ease-in-out;
 }
-.add-btn p{
-    display: none;
+
+.add-btn p {
+  display: none;
 }
-.add-btn:focus p{
-    display: flex;
+
+.add-btn:focus p {
+  display: flex;
 }
+
 .add-btn:hover {
-    background-color: var(--Red);
-    color: #fff;
+  background-color: var(--Red);
+  color: #fff;
 }
 /* my cart  */
 
@@ -164,13 +166,15 @@ body{
 /* Order Confirmed  */
 
 .bg-modal{
+    padding: 30px;
     background-color: #0000008a;
     position: absolute;
     bottom: 0;
+    height: fit-content;
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -208,6 +212,13 @@ body{
     cursor: pointer;
     font-size: 15px;
 }
+.orders-pop p {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+  }
+  
 .popup-modal button{
     padding: 12px 15px;
     background-color: var(--Red);
@@ -238,6 +249,8 @@ body{
     .container-ci{
         display: flex;
         flex-direction: column;
+        max-width: 350px;
+        /* border: 1px solid; */
     }
     .container{
         display: flex;
@@ -253,11 +266,11 @@ body{
         width: 90vw;
     }
     .food-image img{
-        width: 90vw;
+        width: fit-content;
     }
     .your-cart{
         /* position: absolute; */
-        width: 90vw;
+        width: 100%;
         
         
     }
